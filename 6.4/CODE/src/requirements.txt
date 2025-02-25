@@ -1,0 +1,15 @@
+SQLAlchemy==2.0.4
+numexpr==2.8.4
+numpy==1.23.1
+pandas==2.2.1
+pyodbc==4.0.35
+python_dateutil==2.8.2
+pywin32==303
+scikit-image==0.22.0
+psutil == 5.9.6
+pyinstaller == 5.5
+openpyxl == 3.0.9
+bottleneck == 1.3.7
+numba==0.56.4
+numpy_groupies==0.10.2
+dask[dataframe]

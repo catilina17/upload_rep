@@ -1,0 +1,20 @@
+"""NOM DES CLES DU DICTIONNAIRE JSON POUR CONFIG IHM"""
+js_liste_entites_alim = ["liste_entites"]
+js_dar_key = ["dar"]
+js_rep_data_source_key = ["repertoire_fichiers_sources"]
+
+js_rate_input_key = ["rate_input"]
+js_liq_inputs_key = ["liq_input"]
+js_model_nmd_key = ["model_nmd"]
+js_model_pel_key = ["model_pel"]
+
+js_rep_output_alim_key = ["repertoire_sortie_alim"]
+js_type_sources_key = ["sources"]
+js_nom_simu_key = ["nom_simulation"]
+js_scen_ref_nmd_key = ["scen_ref_nmd"]
+js_mapper_ray_key = ["Mapper_ray"]
+js_int_gestion_key = ["detail_intention_gestion"]
+js_type_simu_key = ["type_simulation"]
+js_perim_natixis_key = ["perim_natixis"]
+js_filtre_depart_decale_N_key = ["filtre_depart_decale_N"]
+js_supp_encours_dar0_key = ["Suppr_encours_dar_0"]

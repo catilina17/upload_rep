@@ -1,0 +1,26 @@
+""" Paramètres spécifiques des établissements type ONEY/SOCFIM"""
+from modules.alim.parameters.general_parameters import *
+from mappings.pass_alm_fields import PASS_ALM_Fields as pa
+
+""" COLS INPUT FILES"""
+NC_OS_DATA_DAR = "DAR"
+NC_OS_DATA_RATEC = "RATE_CODE"
+NC_OS_DATA_CCY = "CCY_CODE"
+NC_OS_DATA_MONTANT2 = "N_AVG_GAP"
+NC_OS_DATA_MONTANT1 = "N_STOCK_GAP"
+NC_OS_DATA_MONTANT3 = "AMOUNT_L"
+NC_OS_DATA_CONTRACT = "CONTRACT_TYPE"
+NC_ONEY_DATA_MATUR = "MATURITE_INITIALE"
+NC_OS_DATA_DIM1 = "DIM1"
+NC_OS_DATA_DATE = "DATEFIN_PERIOD"
+NC_OS_DATA_FAMILY = "FAMILY"
+NC_OS_DATA_PALIER = "PALIER_CONSO"
+NC_OS_DATA_GESTION = "INTENTIONS_GESTION"
+NC_OS_DATA_BOOK = "BOOK_CODE"
+NC_OS_DATA_LCR_TIERS = "BALE"
+
+cols_to_keep = [NC_CONTRACT_TEMP, pa.NC_PA_RATE_CODE, pa.NC_PA_DEVISE, \
+                pa.NC_PA_MARCHE, NC_GESTION_TEMP, NC_PALIER_TEMP, \
+                pa.NC_PA_BILAN, NC_DATE_MONTANT, NC_MATUR_TEMP, pa.NC_PA_BOOK]
+
+agreg_vars = [x for x in cols_to_keep if x != NC_DATE_MONTANT]

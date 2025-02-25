@@ -1,0 +1,1 @@
+"UPDATE target AS a INNER JOIN EQUITY AS b ON a.ISIN = b.ISIN SET a.JV = 1, a.commentaire = 'Règle: Côté Liquidité Quotidienne', a.IsValid = 'VRAI' WHERE a.TypeProduit_Groupe <> 'B"
