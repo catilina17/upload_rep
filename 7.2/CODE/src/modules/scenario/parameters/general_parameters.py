@@ -1,0 +1,54 @@
+NB_PROJ_ZC = 240
+
+CN_NOM_SCENARIO = "NOM SCENARIO"
+CN_TYPE_PN = 'TYPE PN'
+CN_PN_INDICATOR = 'INDICATEUR'
+
+RN_DAR = '_DAR'
+
+RN_MAIN_SC_EVE = "_MAIN_SC_EVE"
+
+TEMP_DIR = "PASS_ALM"
+TEMP_DIR_STOCK = "TX_STOCK"
+TEMP_DIR_TX_LIQ = "TX_AND_LIQ"
+TEMP_DIR_BOOTSRAP = "BOOTSRAP"
+
+
+RN_SC_TAUX_USER = 'SC TAUX USER'
+
+
+RN_SHOCKS_FST_CELL = 'shocks_fst_cell'
+RN_STRESS_PN_FST_CELL = 'stress_pn_fst_cell'
+RN_ADD_PN_FST_CELL = 'addpn_fst_cell'
+RN_SCENARIO_LIST_CELL = '_table_des_scénario'
+
+RN_TYPE_SOURCES = '_type_sources'
+
+RN_STOCK_REF_TX_SC = '_sc_ref_par_default'
+RN_REF_PASS_ALM_FST_CELL = 'ref_pass_alm_fst_cell'
+RN_SC_PN_BPCE_FST_CELL= "_SC_BPCE_ALL"
+RN_SCENARIO_RC_ST = '_SC_RC_ST'
+RN_SCENARIO_SRC_DAV = "_table_src_dav"
+
+RN_TX_PATH = '_TX_FILE_PATH'
+RN_LIQ_PATH = '_LIQ_FILE_PATH'
+RN_TCI_PATH = '_TCI_FILE_PATH'
+RN_SCENARIO_FILE_PATH = '_SCENARI_PATH'
+RN_OUTPUT_DIR = '_output_path'
+RN_SOURCES_DIR = '_sources_dir_path'
+
+RN_SC_TX = '_sc_tx'
+RN_SC_LIQ = '_sc_liq'
+RN_SC_RCO = '_sc_rco'
+RN_BOOTSTRAP = '_tx_bootsrap'
+RN_TCI = "_sc_tci"
+
+STRESS_TYPE_ADDITIF = 'Additif'
+STRESS_TYPE_CUMULATIF = 'Cumulatif'
+STRESS_TYPE_REMPLACEMENT = 'Remplacement'
+
+SELECT_ALL_KEYWORD = 'ALL'
+
+RANK_CURVES_DEV = {1:"EUR", 2:"USD", 3:"CHF", 4:"GBP", 5:"JPY", 6:"ZEU"}
+RANK_CURVES_TX= {1:"SWAP", 2:"DIVERS", 3:"BOND", 4:"INFLATION", 5:"FLOOR"}
+RANK_CURVES_LIQ= {1:"UNSECURED", 2:"SECURED", 3:"OF", 4:"TCI"}

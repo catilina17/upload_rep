@@ -1,0 +1,8 @@
+scikit_image==0.17.2
+requests==2.20.0
+numpy==1.19.0
+scipy==1.5.0
+pandas==1.0.5
+pywin32==228
+python_dateutil==2.8.1
+skimage==0.0

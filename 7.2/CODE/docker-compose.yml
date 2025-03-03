@@ -1,0 +1,14 @@
+services:
+  pass_alm_7.0:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: pass_alm_7.0
+    volumes:
+      - "/mnt/c/Users/HOSSAYNE/DRIVE KRYPTEROS/BPCE/LIVRAISONS/PASS_ALM/config:/config"
+      - "/mnt/c/Users/HOSSAYNE/Documents/BPCE_ARCHIVES/SOURCES/SOURCES_RCO_2022_v3 -360 - ME:/data"
+      - "/mnt/c/Users/HOSSAYNE/Documents/BPCE_ARCHIVES/RESULTATS/7.0/3009_ubuntu_docker:/output"
+    ports:
+      - "8000:8000"
+    stdin_open: true
+    tty: true
